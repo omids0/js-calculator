@@ -1,0 +1,85 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    background-color: rgb(255, 244, 198);
+}
+
+.calculator {
+    width: 190px;
+    background-color: rgb(255, 210, 168);
+    padding: 2rem;
+    border-radius: 5%;
+}
+
+.calculator:hover {
+    border: brown solid 1px;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: rgb(255, 7, 7);
+}
+
+
+.monitor {
+    border-top: black 1px;
+    border-left: none;
+    border-right: none;
+    background-color: rgb(255, 210, 168);
+    height: 2.6rem;
+    width: 18rem;
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-size: xx-large;
+}
+
+.button {
+    background-color: rgb(252, 248, 190);
+    width: 3.5rem;
+    height: 3.5rem;
+    border: rgb(252, 248, 190) solid 1px;
+    margin: 0.1rem;
+    padding: 0.8rem;
+    font-size: 2rem;
+}
+.button:hover {
+    border: burlywood solid 1px;
+}
+
+.button___operator {
+    background-color: rgb(255, 164, 111);
+    width: 6rem;
+    height: 3.5rem;
+    border: rgb(255, 164, 111) solid 1px;
+    margin: 0.1rem;
+    padding: 0.8rem;
+    font-size: 2rem;
+}
+
+.button___operator:hover{
+    border: brown solid 1px;
+}
+
+.button__equal {
+    background-color: rgb(255, 164, 111);
+    width: 18.4rem;
+    height: 5.5rem;
+    border: rgb(255, 164, 111) solid 1px;
+    margin: 0.1rem;
+    padding: 0.8rem;
+    font-size: 2rem;
+    margin-top: 0.5rem;
+}
+
+.button__equal:hover{
+    border: brown solid 1px;
+}
